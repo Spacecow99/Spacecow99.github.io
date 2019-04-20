@@ -1,5 +1,1 @@
-# Welcome
-
-## Table of contents
-
-N/A
+# Coming Soon To A Theater Near You
