@@ -5,4 +5,4 @@
 
 If you see this, you have gone too far. This is but a humble test page for me to experiment with.
 
-![Image](https://spacecow99.github.io/test-post/image.PNG =200x100)
+<img src="https://spacecow99.github.io/test-post/image.PNG" width="200" height="100" />
