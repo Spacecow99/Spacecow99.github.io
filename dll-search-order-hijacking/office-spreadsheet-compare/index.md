@@ -3,22 +3,24 @@
 
 # Office Spreadsheet Compare
 
-    Use Spreadsheet Compare to compare two workbooks to see the differences between them, line by line. You can see how values, formulas, and formatting differ – line by line, and cell by cell. Spreadsheet Compare can detect and highlight just the type of differences you specify.
+```
+Use Spreadsheet Compare to compare two workbooks to see the differences between them, line by line. You can see how values, formulas, and formatting differ – line by line, and cell by cell. Spreadsheet Compare can detect and highlight just the type of differences you specify.
+```
 
 ## Mso20Win32Client.dll DLL Search Order Hijack
 
-The `SPREADSHEETCOMPARE.EXE` executable that comes as part of Microsoft Office 2016 is suseptible to a DLL search order hijack where it attempts to load the 32bit DLL `Mso20Win32Client.dll` from the user's PATH upon application startup and the contents of DLL_PROCESS_ATTACH will be executed upon load.
+The `SPREADSHEETCOMPARE.EXE` executable that comes as part of Microsoft Office 2016 is susceptible to a DLL search order hijack where it attempts to load the 32bit DLL `Mso20Win32Client.dll` from the user's PATH upon application startup and the contents of DLL_PROCESS_ATTACH will be executed upon load.
 
-<img src="https://spacecow99.github.io/dll-search-order-hijacking/office-spreadsheet-compare/spreadsheetcompare_mso20win32client_search.PNG" width="400" height="200" />
+<img src="https://spacecow99.github.io/dll-search-order-hijacking/office-spreadsheet-compare/spreadsheetcompare_mso20win32client_search.PNG" width="800" height="300" />
 
 ### Steps to reproduce
 
-1) Locate writable directory in _PATH_.
-2) Move DLL payload to target directory.
-3) Rename the DLL payload to `Mso20Win32Client.dll`.
-4) Run `"C:\Program Files (x86)\Microsoft Office\root\client\AppVLP.exe" "C:\Program Files (x86)\Microsoft Office\Root\Office16\DCF\SPREADSHEETCOMPARE.EXE"`.
+1. Locate writable directory in _PATH_.
+2. Move DLL payload to target directory.
+3. Rename the DLL payload to `Mso20Win32Client.dll`.
+4. Run `"C:\Program Files (x86)\Microsoft Office\root\client\AppVLP.exe" "C:\Program Files (x86)\Microsoft Office\Root\Office16\DCF\SPREADSHEETCOMPARE.EXE"`.
 
-<img src="https://spacecow99.github.io/dll-search-order-hijacking/office-spreadsheet-compare/spreadsheetcompare_mso20win32client_hijack.PNG" width="400" height="200" />
+<img src="https://spacecow99.github.io/dll-search-order-hijacking/office-spreadsheet-compare/spreadsheetcompare_mso20win32client_hijack.PNG" width="450" height="200" />
 
 ## ~~c2r32.dll DLL Search Order Hijack~~
 
