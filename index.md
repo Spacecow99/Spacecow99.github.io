@@ -8,5 +8,6 @@ The following blog is a collection of research (vaguely) related to infosec that
   - [Office Spreadsheet Compare](https://spacecow99.github.io/dll-search-order-hijacking/office-spreadsheet-compare/)
 - [Path Interception](https://spacecow99.github.io/#)
   - [Git-GUI](https://spacecow99.github.io/path-interception/git-gui/)
+  - [Signal](https://spacecow99.github.io/path-interception/signal/)
 - [Windows File Formats](https://spacecow99.github.io/#)
   - [.Group](https://spacecow99.github.io/windows-file-formats/group-file/)
