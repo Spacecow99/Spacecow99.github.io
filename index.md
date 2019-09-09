@@ -11,3 +11,4 @@ The following blog is a collection of research (vaguely) related to infosec that
   - [Signal](https://spacecow99.github.io/path-interception/signal/)
 - [Windows File Formats](https://spacecow99.github.io/#)
   - [.Group](https://spacecow99.github.io/windows-file-formats/group-file/)
+- [Writable Paths](https://spacecow99.github.io/writable-paths/)
