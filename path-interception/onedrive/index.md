@@ -5,12 +5,12 @@
 
 ## OneDrive Standalone Update Task Scheduled Task
 
-OneDrive checks for updates by using the per-user scheduled task `\OneDrive Standalone Update Task-<User SID>` which is executed once daily. An attacker can hijack the update binary in the user wriatble location `%LOCALAPPDATA%\Microsoft\OneDrive\OneDriveStandaloneUpdater.exe` to persist a binary with user permissions. Alternatively, the scheduled task can be launched to obfuscate the execution of the malicious binary.
+OneDrive checks for updates by using the per-user scheduled task `\OneDrive Standalone Update Task-<User SID>` which is executed once daily. An attacker can hijack the update binary in the user writable location `%LOCALAPPDATA%\Microsoft\OneDrive\OneDriveStandaloneUpdater.exe` to persist a binary with user permissions. Alternatively, the scheduled task can be launched to obfuscate the execution of the malicious binary.
 
 ### Steps to Reproduce
 
-1) Copy `C:\Windows\System32\calc.exe` to `%LOCALAPPDATA%\Microsoft\OneDrive\OneDriveStandaloneUpdater.exe`
-2) Run the `\OneDrive Standalone Update Task-<User SID>` scheduled task.
+1. Copy `C:\Windows\System32\calc.exe` to `%LOCALAPPDATA%\Microsoft\OneDrive\OneDriveStandaloneUpdater.exe`
+2. Run the `\OneDrive Standalone Update Task-<User SID>` scheduled task.
 
 ### OneDrive Standalone Update Task
 
