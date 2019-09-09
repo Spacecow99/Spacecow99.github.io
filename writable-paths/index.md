@@ -1,3 +1,6 @@
+
+- return [$HOME](https://spacecow99.github.io/)
+
 # User Writable Paths
 
 What we are looking for is _user writable_ Directory and Registry Keys that aren't under a typical user writable path such as `C:\ProgramData`, `C:\Users\%USERNAME%` or `HKEY_CURRENT_USER\` that are available on a default Windows 10 Enterprise installation. Tp qualify as user writable, the path must support _Write_ permissions for `Everyone`, `Users` or `NT AUTHORITY\Authenticated Users` without any equivalent _Deny_ permissions. Results were aquired using _SysInternals AccessEnum_.
