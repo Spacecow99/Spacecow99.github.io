@@ -5,8 +5,6 @@ The following blog is a collection of research (vaguely) related to infosec that
 ## Table of Contents
 
 - [DLL Search Order Hijacking](https://spacecow99.github.io/dll-search-order-hijacking/)
-- [Path Interception](https://spacecow99.github.io/#)
-  - [Git-GUI](https://spacecow99.github.io/path-interception/git-gui/)
-  - [Signal](https://spacecow99.github.io/path-interception/signal/)
+- [Path Interception](https://spacecow99.github.io/path-interception/)
 - [Windows File Formats](https://spacecow99.github.io/windows-file-formats/)
 - [Writable Paths](https://spacecow99.github.io/writable-paths/)
