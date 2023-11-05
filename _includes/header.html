@@ -79,6 +79,10 @@
             <li><a class="fa fa-2x fa-weibo" href="https://weibo.com/{{ site.weibo_username }}"><span class="description">微博</span></a></li>
             {% endif %}
 
+            {% if site.inaturalist_username %}
+            <li><a class="fa fa-2x fa-envira " href="https://www.inaturalist.org/people/{{ site.github_username }}"><span class="description">iNaturalist</span></a></li>
+            {% endif %}
+
             {% if site.blog_url %}
             <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
             {% endif %}
