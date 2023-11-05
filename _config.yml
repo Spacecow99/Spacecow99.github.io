@@ -1,4 +1,37 @@
-theme: jekyll-theme-cayman
-title: Cows in Space
-description: Just another information security blog
-show_downloads: false
+remote_theme: dashingcode/front-cover
+
+# Site settings
+name: Jacques Pharand
+description: "Cyber Security Architect. Enthusiast of all things Python, Automation, and Operations."
+url: "https://spacecow99.github.io/"
+
+
+# Delete the lines you don't need
+# about 5 elements are recomended
+github_username:  Spacecow99
+linkedin_username: your_linked_in_username_goes_here
+blog_url: "/blog"
+email: your-email@example.domain
+public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
+
+
+avatar: yes
+#avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+avatar_img_path: "https://avatars.githubusercontent.com/u/7260861"
+
+
+front_img: yes
+front_img_path: "imgs/background.jpg"
+#front_img_path: "https://external.url/image.jpg"
+
+
+favicon_img: yes
+favicon_img_path: "imgs/favicon.ico"
+#favicon_img_path: "https://external.url/favicon.ico"
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
